@@ -1,0 +1,107 @@
+   
+body { font-family: calibri, "times new roman", helvetica;
+    background-color: #e8bcc9; background-image: url("unicorn100.jpg"); }
+
+body {
+    margin: 70px; padding: 80px; } 
+
+body { margin-bottom: 5%; }
+
+body { padding-bottom: 1%; }
+
+h {
+    margin: 90px; padding: 80px; }
+
+
+body {
+    border-style: double; border-width: 10px; border-color: gray; } 
+
+
+body { text-align: center; }
+
+
+    p1 { line-height: 21px; } p1 { color: #6f0670; font-weight: bold } 
+
+
+p2 { color: white font-style: italic }
+
+
+p3 { font-size: 2em; } strong { font-style: italic; text-transform:
+    uppercase; }
+
+
+h { font-size: 100px; font-family: "berlin sans fb", "lucida bright", "times new roman";}
+
+h1 { font-size: 20px; color: black }
+
+h2 { font-size 20px; color: black }
+
+
+li { display: inline }
+
+li { font-size 18px; }
+
+a { color: #340649; }
+
+&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;br&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: none;
+}
+
+h {
+			position: top;
+			width: 600px;
+			height: 300px;
+			background: #efdaec;
+			margin: 5px;
+		}
+		code {
+			padding: 0 15px;
+		}
+
+
+		.p1 {
+			top: 80px;
+			left: 80px;
+			z-index: 4;
+		}
+	
+p { position: top;
+width: 1000px;
+height: 80%;
+background: white;
+margin: 5px; }
+
+		code {
+			padding: 0 15px;
+		}
+
+h:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #f0e2f1;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #content { width: 100% }
+}
+
+@media screen and (orientation: landscape) {
+    #nav { float: left }
+}
+
+@media screen and (orientation: portrait) {
+    #nav { float: none }
+}
+
