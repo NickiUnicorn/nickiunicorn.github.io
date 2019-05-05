@@ -105,3 +105,18 @@ h:hover {
     #nav { float: none }
 }
 
+@media handheld { body { margin: 70% padding: 80% } }
+
+@media handheld { body { margin-bottom: 5%; padding-bottom: 1%; } }
+
+@media screen and (max-width: 600px) { #content {width: 100% } }
+
+@media screen and (max-width: 600px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+}
+
